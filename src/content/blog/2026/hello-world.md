@@ -1,6 +1,6 @@
 ---
-title: "Hello World - Welcome to My Blog"
-description: "Introducing idsme.dev - a space where I'll share thoughts on enterprise architecture, digital transformation, AI, and technology leadership."
+title: "Hello World - Welcome to My Blog - Ids"
+description: "Introducing ACME Labs - a space where I'll share thoughts on enterprise architecture, digital transformation, AI, and technology leadership."
 pubDatetime: 2026-03-10T18:00:00Z
 modDatetime: 2026-03-10T18:00:00Z
 author: "Ids Achterhof"
@@ -13,7 +13,7 @@ tags:
   - digital-transformation
 ---
 
-Welcome to **idsme.dev**! This is my personal space on the web where I'll be sharing thoughts, learnings, and experiences from my journey as an Enterprise Architect.
+Welcome to **ACME Labs**! This is my personal space on the web where I'll be sharing thoughts, learnings, and experiences from my journey as an Enterprise Architect.
 
 ## Why Start a Blog?
 
