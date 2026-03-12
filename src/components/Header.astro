@@ -40,9 +40,9 @@ const isActive = (path: string) => {
     >
       <a
         href="/"
-        class="absolute py-1 text-2xl leading-7 font-semibold whitespace-nowrap sm:static"
+        class="absolute py-1 leading-7 whitespace-nowrap sm:static"
       >
-        {SITE.title}
+        <img src="/Acmelabs_Logo_Word.png" alt={SITE.title} class="h-16 w-auto" />
       </a>
       <nav
         id="nav-menu"
@@ -68,15 +68,15 @@ const isActive = (path: string) => {
           ]}
         >
           <li class="col-span-2">
-            <a href="/posts" class:list={{ "active-nav": isActive("/posts") }}>
-              Posts
+            <a href="/" class:list={{ "active-nav": isActive("/") }}>
+              Featured Posts
             </a>
           </li>
-          <!-- <li class="col-span-2">
+          <li class="col-span-2">
             <a href="/tags" class:list={{ "active-nav": isActive("/tags") }}>
               Tags
             </a>
-          </li> -->
+          </li>
           <li class="col-span-2">
             <a href="/about" class:list={{ "active-nav": isActive("/about") }}>
               About
