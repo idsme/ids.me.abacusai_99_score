@@ -35,7 +35,7 @@ export const SITE: Site = {
   author: "Ids Achterhof",
   profile: "https://upload.wikimedia.org/wikipedia/commons/7/72/NIH_IT_Enterprise_Architecture_Framework.jpg",
   desc: "Enterprise Architect building scalable digital solutions. Bridging technology and business with pragmatic, innovative approaches.",
-  title: "Ids Achterhof",
+  title: "ACME Labs",
   ogImage: "ids-profile.jpg",
   lightAndDarkMode: true,
   postPerIndex: 10,
