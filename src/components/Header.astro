@@ -42,7 +42,8 @@ const isActive = (path: string) => {
         href="/"
         class="absolute py-1 leading-7 whitespace-nowrap sm:static"
       >
-        <img src="/Acmelabs_Logo_Word.png" alt={SITE.title} class="h-16 w-auto" />
+        <img src="/Acmelabs_Logo_Word_light.svg" alt={SITE.title} class="h-16 w-auto block dark:hidden" />
+        <img src="/Acmelabs_Logo_Word_dark.svg" alt={SITE.title} class="h-16 w-auto hidden dark:block" />
       </a>
       <nav
         id="nav-menu"
