@@ -1,0 +1,102 @@
+<svg width="100%" viewBox="0 0 680 620">
+<defs>
+<marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M2 1L8 5L2 9" fill="none" stroke="context-stroke" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></marker>
+<clipPath id="mountain"><path d="M40 580L340 60L640 580Z"/></clipPath>
+</defs>
+
+<!-- Mountain silhouette bands — bottom to top, warmest to coolest -->
+<!-- Base band: Prompt craft (widest) -->
+<path d="M40 580L340 60L640 580Z" fill="none" stroke="var(--t)" stroke-width="0.5" opacity="0.15"/>
+
+<!-- Level 1 fill — bottom slice -->
+<g clip-path="url(#mountain)">
+<rect class="c-gray" x="40" y="450" width="600" height="130" stroke-width="0"/>
+</g>
+<!-- Level 2 fill -->
+<g clip-path="url(#mountain)">
+<rect class="c-teal" x="40" y="320" width="600" height="130" stroke-width="0"/>
+</g>
+<!-- Level 3 fill -->
+<g clip-path="url(#mountain)">
+<rect class="c-purple" x="40" y="190" width="600" height="130" stroke-width="0"/>
+</g>
+<!-- Level 4 fill — summit -->
+<g clip-path="url(#mountain)">
+<rect class="c-coral" x="40" y="60" width="600" height="130" stroke-width="0"/>
+</g>
+
+<!-- Altitude lines (dashed, subtle) -->
+<line class="leader" x1="40" y1="450" x2="640" y2="450"/>
+<line class="leader" x1="40" y1="320" x2="640" y2="320"/>
+<line class="leader" x1="40" y1="190" x2="640" y2="190"/>
+
+<!-- Mountain outline -->
+<path d="M40 580L340 60L640 580Z" fill="none" stroke="var(--t)" stroke-width="1.2" opacity="0.4"/>
+
+<!-- Summit flag -->
+<line x1="340" y1="60" x2="340" y2="28" stroke="var(--t)" stroke-width="1.5"/>
+<path d="M340 28L370 38L340 48Z" fill="#D85A30" opacity="0.9"/>
+
+<!-- Level labels — LEFT side, outside the mountain -->
+
+<!-- Level 1: Prompt craft -->
+<text class="th" x="36" y="500" text-anchor="end">Prompt craft</text>
+<text class="ts" x="36" y="518" text-anchor="end">Table stakes</text>
+
+<!-- Level 2: Context engineering -->
+<text class="th" x="36" y="370" text-anchor="end">Context engineering</text>
+<text class="ts" x="36" y="388" text-anchor="end">Right information loaded</text>
+
+<!-- Level 3: Intent engineering -->
+<text class="th" x="36" y="240" text-anchor="end">Intent engineering</text>
+<text class="ts" x="36" y="258" text-anchor="end">Right values encoded</text>
+
+<!-- Level 4: Specification engineering -->
+<text class="th" x="36" y="120" text-anchor="end">Specification engineering</text>
+<text class="ts" x="36" y="138" text-anchor="end">Autonomous execution</text>
+
+<!-- RIGHT side — what you get at each level -->
+
+<!-- Level 1 result -->
+<text class="ts" x="644" y="500" text-anchor="start">Email field + password field</text>
+<text class="ts" x="644" y="516" text-anchor="start">You fix the rest by hand</text>
+
+<!-- Level 2 result -->
+<text class="ts" x="644" y="370" text-anchor="start">Matches your stack</text>
+<text class="ts" x="644" y="386" text-anchor="start">Still missing judgment calls</text>
+
+<!-- Level 3 result -->
+<text class="ts" x="644" y="240" text-anchor="start">Makes senior-level tradeoffs</text>
+<text class="ts" x="644" y="256" text-anchor="start">Needs you to verify done</text>
+
+<!-- Level 4 result -->
+<text class="ts" x="644" y="120" text-anchor="start">Runs for hours, passes tests</text>
+<text class="ts" x="644" y="136" text-anchor="start">You review the PR, not the work</text>
+
+<!-- Climber dots — showing where most people are vs where leverage is -->
+<circle cx="310" cy="510" r="5" fill="var(--p)" opacity="0.6"/>
+<circle cx="330" cy="505" r="5" fill="var(--p)" opacity="0.6"/>
+<circle cx="350" cy="515" r="5" fill="var(--p)" opacity="0.6"/>
+<circle cx="290" cy="520" r="5" fill="var(--p)" opacity="0.6"/>
+<circle cx="370" cy="508" r="5" fill="var(--p)" opacity="0.6"/>
+<circle cx="320" cy="525" r="4" fill="var(--p)" opacity="0.5"/>
+<circle cx="355" cy="522" r="4" fill="var(--p)" opacity="0.5"/>
+<circle cx="345" cy="530" r="4" fill="var(--p)" opacity="0.4"/>
+<circle cx="305" cy="532" r="4" fill="var(--p)" opacity="0.4"/>
+
+<!-- Solo climber near summit -->
+<circle cx="340" cy="130" r="6" fill="#D85A30" opacity="0.9"/>
+
+<!-- Bottom annotation -->
+<text class="ts" x="340" y="570" text-anchor="middle" opacity="0.6">Most people are here</text>
+<line x1="340" y1="555" x2="340" y2="540" stroke="var(--t)" stroke-width="0.8" opacity="0.3" marker-end="url(#arrow)"/>
+
+<!-- Top annotation -->
+<text class="ts" x="415" y="130" text-anchor="start" opacity="0.7">The leverage is here</text>
+<line x1="410" y1="130" x2="350" y2="130" stroke="#D85A30" stroke-width="0.8" opacity="0.5"/>
+
+<!-- Vertical axis label -->
+<text class="ts" x="16" y="580" text-anchor="start" opacity="0.5">Low altitude</text>
+<text class="ts" x="16" y="70" text-anchor="start" opacity="0.5">High altitude</text>
+
+</svg>
