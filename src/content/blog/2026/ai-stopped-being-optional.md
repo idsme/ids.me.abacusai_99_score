@@ -15,9 +15,9 @@ tags:
 heroImage: /assets/img/2026/ai-stopped-being-optional/02-invoice-dispute.svg
 ---
 
-A finance controller kicks off month-end close the way she always has — pulling reports from three systems, reconciling manually, chasing approvals over email. Five days.
+Left, a finance controller kicks off month-end close the way she always has — pulling reports from three systems, reconciling manually, chasing approvals over email. Five days.
 
-Her counterpart triggers an agentic workflow that pulls the same reports, flags mismatches, drafts reconciliation entries, and routes exceptions by materiality threshold. A day and a half. Same ERP. Same headcount. One redesigned the work. The other plugged in a copilot.
+Right, her counterpart triggers an agentic workflow that pulls the same reports, flags mismatches, drafts reconciliation entries, and routes exceptions by materiality threshold. A day and a half. Same ERP. Same headcount. One redesigned the work. The other plugged in a copilot.
 
 [Deloitte's 2026 State of AI report](https://www.deloitte.com/us/en/what-we-do/capabilities/applied-artificial-intelligence/content/state-of-ai-in-the-enterprise.html):
 
