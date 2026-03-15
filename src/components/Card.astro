@@ -1,5 +1,4 @@
 ---
-import { Image } from "astro:assets";
 import type { CollectionEntry } from "astro:content";
 import { getPath } from "@/utils/getPath";
 import { calculateReadingTime } from "@/utils/readingTime";
@@ -58,16 +57,13 @@ const headerProps = {
           href={getPath(id, filePath)}
           class="flex-shrink-0 hidden sm:block group"
         >
-          <Image
+          <img
             src={heroImage}
             alt={title}
             width={140}
             height={79}
             class="rounded shadow-sm transition-all duration-200 group-hover:shadow-md group-hover:scale-105 object-cover"
-            format="webp"
-            quality={80}
             loading="lazy"
-            densities={[1, 2]}
           />
         </a>
       )}
