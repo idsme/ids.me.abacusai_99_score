@@ -7,7 +7,7 @@ author: "Ids Achterhof"
 slug: "your-next-level-engineering"
 featured: true
 draft: false
-heroImage: ""
+heroImage: "/assets/img/2026/next-level-automation/difference_between_trying_and_doing.png"
 tags:
   - ai
   - agentic-engineering
@@ -15,33 +15,24 @@ tags:
   - enterprise-architecture
 ---
 
-# Business at the next level of ai-automation will survive
-
-What separates the 6% isn't better models. Its knowing how to upgrade your workflows.
+# Only business at the next level will survive
+What separates the 6% isn't better models. It's knowing how to upgrade your workflows.
 
 ## Level 1: Digitization
-
-Moved from paper to screen for the easy parts of the workflow.
+The easy parts of the paper
+workflow have now been replace by a screen.
 
 ## Level 2: fully automated
-
 A human performed every step; the screen just replaced paper.
 Now deterministic rules handle the steps that require zero judgment.
 
-### Fully automated Example
-
-"If invoice total matches, mark approved" doesn't need a person. The workflow itself stays the same; the repeatable
-parts have been automated.
-
 ### The limit
-
-RPA and rule-based automation can't handle ambiguity. The moment a workflow hits an exception — a partial invoice match,
-a missing field, a nonstandard format — it stops and waits for a human. PwC's 2025 CEO Survey found that 44% of leaders
+RPA and rule-based automation can't handle ambiguity. The moment a workflow hits an exception, a partial invoice match,
+a missing field, a nonstandard format; it stops and waits for a human. PwC's 2025 CEO Survey found that 44% of leaders
 report efficiency gains from AI, but only 24% see measurable profit impact. Datagrid That 20-point gap lives here: teams
 moving faster at tasks that still shouldn't exist.
 
 ## Level 3: AI-assisted Level
-
 This is where judgment enters the system for the first time.
 A copilot reads the context, customer history, network telemetry, transaction patterns and surfaces a recommendation.
 The human still decides and acts.
@@ -79,3 +70,5 @@ downstream agent), interoperability gaps (agents that can't reach every system i
 spots (who's accountable when three agents collaborate on a decision?). 40% of agentic AI projects fail due to
 inadequate foundations, data quality, integration, and governance. Landbase The technology isn't the blocker. The
 plumbing is.
+
+![levels of automation](/assets/img/2026/bananna_levels_of_automation.png)
