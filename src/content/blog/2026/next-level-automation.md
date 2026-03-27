@@ -15,7 +15,6 @@ tags:
   - enterprise-architecture
 ---
 
-# Only business at the next level will survive
 What separates the 6% isn't better models. It's knowing how to upgrade your workflows.
 
 ## Level 1: Digitization
@@ -71,4 +70,4 @@ spots (who's accountable when three agents collaborate on a decision?). 40% of a
 inadequate foundations, data quality, integration, and governance. Landbase The technology isn't the blocker. The
 plumbing is.
 
-![levels of automation](/assets/img/2026/bananna_levels_of_automation.png)
+![levels of automation](/assets/img/2026/next-level-automation/bananna_levels_of_automation.png)
